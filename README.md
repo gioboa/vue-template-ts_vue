@@ -48,20 +48,3 @@ npm run build
 ```sh
 npm run lint
 ```
-
-
-### Arquitetura
-Princípais estrutura de pastas e suas resposabilidades.
-
-| pasta      | Sobre                                                                                    |
-|------------|------------------------------------------------------------------------------------------|
-| api        | Para construí os endpoints, DTOs Response e Request, e desenvolver as Chamadas para APIs |
-| src/pages  | São módulos de páginas                                                                   |
-| src/router | são modulos de roteamento                                                                |
-| src/stores | são modulos de gerenciamento do estado global da aplicação                               |
-
-
-#### Para desenvolver uma novo Endpoint
-
-Ao querer acessar um recurso do back-end devemos criar um novo acesso por Endpoints, isto é feito na pasta de Api onde no arquivo
-`apiConsumer.ts` é definido a configuração de endpoint e em `apiConsumer.interface.ts` o que deve ter de endpoint.
