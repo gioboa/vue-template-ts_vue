@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+    "vunguyentuan.vscode-css-variables"
+  ],
+  "unwantedRecommendations": ["vscode.typescript-language-features"]
+}

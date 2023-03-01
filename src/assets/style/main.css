@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 100%;
+  outline: none;
+  box-sizing: border-box;
+  font-family: var(--font-family-title);
+}
+
+
+.dotfloat {
+  width: 300px;
+  height: 300px;
+  filter: blur(150px);
+  position: fixed;
+}
+
+.dotfloat-top {
+  background: #aa01fe;
+  right: -125px;
+  top: -125px;
+}
+
+.dotfloat-bottom {
+  background: #552aec;
+  left: -125px;
+  bottom: -125px;
+}

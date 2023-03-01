@@ -1,0 +1,6 @@
+tsconfig.json
+module-federation.config.cjs
+
+.devContainer
+
+/dist

@@ -1,0 +1,52 @@
+/*
+    tokens baseados em liz design token
+    https://www.figma.com/community/file/1150677865238709221
+*/
+:root {
+
+   /**
+   * @tokens color
+   */
+   --color-brand-primary-100: #9E88D8;
+   --color-brand-primary-200: #866ACF;
+   --color-brand-primary-300: #6E4CC5;
+   --color-brand-primary-400: #5B39B0;
+   --color-brand-primary-500: #4C3092;
+   --color-brand-primary-600: #422A80;
+   --color-brand-primary-700: #39246E;
+   --color-brand-primary-800: #2F1E5B;
+   --color-brand-primary-900: #261849;
+   
+   --color-theme-primary: #211940;
+   --color-theme-secundary: #352868;
+
+   --color-function-primary-100: #D480FE;
+   --color-function-primary-200: #CA60FE;
+   --color-function-primary-300: #BF41FE;
+   --color-function-primary-400: #B421FE;
+   --color-function-primary-500: #AA01FE;
+   --color-function-primary-600: #9401DE;
+   --color-function-primary-700: #7F01BE;
+   --color-function-primary-800: #6A019F;
+   --color-function-primary-900: #55017F;
+   
+   --color-function-secundary-100: #A9C5F4;
+   --color-function-secundary-200: #94B6F1;
+   --color-function-secundary-300: #7EA7EE;
+   --color-function-secundary-400: #6999EB;
+   --color-function-secundary-500: #558CE9;
+   --color-function-secundary-600: #3172E4;
+   --color-function-secundary-700: #1B5ED2;
+   --color-function-secundary-800: #174FAF;
+   --color-function-secundary-900: #123F8C;
+
+   --color-deep-0: #ffffff;
+   --color-deep-1: #000000;
+
+   --color-brand-1: #4C3092;
+ 
+   /**
+    * @tokens-end
+    */
+ }
+ 
