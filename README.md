@@ -1,4 +1,4 @@
-# ZapPages - Web Builder
+# Template vue
 
 ## Dev's Guide
 
