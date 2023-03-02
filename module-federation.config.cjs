@@ -16,5 +16,5 @@ module.exports = withNativeFederation({
       includeSecondaries: false,
     }),
   },
-  skip: ['@gleissonneves/liz-design-token']
+  skip: ['@gleissonneves/liz-design-token', 'axios']
 });
