@@ -1,6 +1,3 @@
-import { Endpoint } from '../../../api/apiConsumer'
-import axios from 'axios'
-
 export default class HomeViewService {
   /*  public static storePage(data: {
     idUser: string;

@@ -4,6 +4,7 @@
   "template-version": "1.1.0",
   "scripts": {
     "dev": "run-p vite:dev force-vite-restart",
+    "dev:remote": "npm --prefix ./remote run dev",
     "vite:dev": "vite",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
@@ -19,7 +20,6 @@
   },
   "dependencies": {
     "@gleissonneves/liz-design-token": "^1.0.4",
-    "axios": "^1.2.0",
     "pinia": "^2.0.21",
     "vue": "^3.2.38",
     "vue-class-component": "^8.0.0-rc.1",
@@ -30,6 +30,7 @@
     "@commitlint/config-conventional": "^17.1.0",
     "@module-federation/vite": "^0.2.6",
     "@rushstack/eslint-patch": "^1.1.4",
+    "@softarc/native-federation": "^1.1.1",
     "@softarc/native-federation-esbuild": "^1.1.1",
     "@types/node": "^16.18.6",
     "@vitejs/plugin-vue": "^4.0.0",

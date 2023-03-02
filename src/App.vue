@@ -1,12 +1,16 @@
 <template>
   <div>teste</div>
+  <DummyComponent />
 </template>
 
 <script lang="ts">
   import { Vue, Options } from 'vue-class-component'
+  import DummyComponent from './DummyComponent.vue'
 
   @Options({
-    components: {},
+    components: {
+      DummyComponent,
+    },
   })
   export default class App extends Vue {}
 </script>
